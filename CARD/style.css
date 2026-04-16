@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fce4ec;
+    text-align: center;
+}
+
+/* Título */
+h1 {
+    margin-top: 40px;
+    font-size: 45px;
+    color: #c2185b;
+}
+
+/* Contenedor */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+/* Card */
+.card {
+    background-color: #fff;
+    width: 250px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+    transition: transform 0.3s;
+}
+
+/* Hover */
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Imagen */
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+/* Texto */
+.card h2 {
+    margin: 15px 0 10px;
+    color: #c2185b;
+}
+
+.card p {
+    font-size: 14px;
+    color: #555;
+    padding: 0 10px;
+}
+
+/* Botón */
+.card button {
+    margin: 15px 0 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ec407a;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background-color: #ad1457;
+}
